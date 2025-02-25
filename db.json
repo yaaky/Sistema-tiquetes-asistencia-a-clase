@@ -1,5 +1,10 @@
 {
-    "users":[
-        
-    ]
+  "users": [
+    {
+      "id": "7da7",
+      "nombre": "jack mor",
+      "correo": "jmora@gmail.com",
+      "typeusers": "admin"
+    }
+  ]
 }

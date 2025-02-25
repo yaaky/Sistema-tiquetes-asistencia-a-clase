@@ -1,6 +1,6 @@
-async function getUsers() {
+async function getusers() {
     try {
-        const response = await fetch('https://api.hacienda.go.cr/fe/ae?identificacion=207360415', {
+        const response = await fetch("http://localhost:3003/users/", {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
@@ -19,23 +19,23 @@ async function getUsers() {
     }
 }
 
-export { getUsers };
+export { getusers };
 
 //////////LLAMADO POST//////////
 
-async function postUsers(nombre,apellido,edad) {
+async function postusers(nombre,correo) {
     try {
      
         const userData = { 
             nombre,
-            apellido,
-            edad
+            correo,
+            
         
         };
 
 
 
-        const response = await fetch("http://localhost:3000/users", {
+        const response = await fetch("http://localhost:3003/users", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -53,12 +53,12 @@ async function postUsers(nombre,apellido,edad) {
     }
 }
 
-export{postUsers}
+export{postusers}
 
 //////////////LLAMADO UPDATE/////////////
 
 
-async function updateUsers(nombre,apellido,edad,id) 
+async function updateusers(nombre,apellido,edad,id) 
 {
     try {
      
@@ -89,14 +89,14 @@ async function updateUsers(nombre,apellido,edad,id)
     }
 }
 
-export{updateUsers}
+export{updateusers}
 
 
 
 //////////////LLAMADO DELETE/////////////
 
 
-async function deleteUser(id) {
+async function deleteuser(id) {
     try {
         const response = await fetch(`http://localhost:3000/users/${id}`, {
             method: 'DELETE',
@@ -116,4 +116,4 @@ async function deleteUser(id) {
     }
 }
 
-export { deleteUser };
+export { deleteuser };
