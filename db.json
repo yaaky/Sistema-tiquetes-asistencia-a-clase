@@ -1,10 +1,28 @@
 {
   "users": [
     {
-      "id": "7da7",
-      "nombre": "jack mor",
-      "correo": "jmora@gmail.com",
-      "typeusers": "admin"
+      "id": "59d4",
+      "nomr": "steven",
+      "passr": "123",
+      "rol": "administrador"
+    },
+    {
+      "id": "15ae",
+      "nomr": "luis",
+      "passr": "123",
+      "rol": "estudiante"
+    },
+    {
+      "id": "a0f4",
+      "nomr": "vcv",
+      "passr": "fsf",
+      "rol": "estudiante"
+    }
+  ],
+  "Solis": [
+    {
+      "id": "939e",
+      "soli": "sbwjxgexge2d"
     }
   ]
 }

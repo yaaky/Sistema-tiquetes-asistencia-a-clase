@@ -1,0 +1,78 @@
+/* Estilo General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Subtítulo */
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #555;
+}
+
+/* Contenedor principal de solicitudes */
+#solix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Contenedor de cada solicitud */
+#divconsul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#C0C0C0;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+/* Contenedor del texto de la solicitud */
+#divdonsul {
+    font-size: 1.1em;
+    flex-grow: 1;
+    color: #333;
+}
+
+/* Botón de eliminar */
+button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+/* Estilo del checkbox */
+input[type="checkbox"] {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Agregar margen a los divs de cada solicitud */
+#divconsul {
+    margin-bottom: 10px;
+}

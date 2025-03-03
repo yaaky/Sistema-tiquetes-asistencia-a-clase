@@ -1,0 +1,82 @@
+
+        /* Estilo global */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:  #f4f4f9;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        #conte {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        #inp {
+            padding: 10px;
+            font-size: 16px;
+            width: 250px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+
+        #but {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #f6acc8;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #but:hover {
+            background-color:#f17f9e;
+        }
+
+        /* Estilo para la sección de las respuestas generadas */
+        #solid {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #divconsul {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+
+        }
+
+        #divdonsul {
+            font-size: 18px;
+            color: #333;
+            width: 80%;
+        }
+
+        #butEdit {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #f6acc8;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }

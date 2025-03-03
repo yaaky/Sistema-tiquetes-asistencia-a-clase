@@ -1,0 +1,90 @@
+/* Reseteo de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo del contenedor del formulario */
+#login {
+    background-color:	#FFF8DC;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.214);
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilo del título */
+#ini {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo de las etiquetas */
+label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Estilo de los campos de entrada */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #f6acc8;
+    color: black;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f17f9e;
+}
+
+/* Estilo del mensaje de error */
+#error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Estilo para el enlace de registro */
+p {
+    margin-top: 15px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

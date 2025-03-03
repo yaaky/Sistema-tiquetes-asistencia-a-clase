@@ -23,14 +23,13 @@ export { getusers };
 
 //////////LLAMADO POST//////////
 
-async function postusers(nombre,correo) {
+async function postusers(nomr, passr) {
     try {
      
         const userData = { 
-            nombre,
-            correo,
-            
-        
+            nomr,
+            passr,
+            rol: "estudiante"
         };
 
 
@@ -58,14 +57,15 @@ export{postusers}
 //////////////LLAMADO UPDATE/////////////
 
 
-async function updateusers(nombre,apellido,edad,id) 
+async function updateusers(nomr,passr) 
 {
     try {
      
         const userData = { 
-            nombre, 
-            apellido,
-            edad
+        
+            nomr,
+            passr,
+            
         
         };
 
